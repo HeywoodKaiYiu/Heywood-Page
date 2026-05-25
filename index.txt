@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heywood Kai Yiu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f8fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111827, #1e3a8a);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #dbeafe;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 25px;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0ecff;
+      color: #1e3a8a;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .paper {
+      margin-bottom: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Heywood Kai Yiu</h1>
+    <p>
+      AI researcher interested in AI agents, large language models,
+      reinforcement learning, planning, and multi-agent systems.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#papers">Papers</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a PhD student / researcher interested in Artificial Intelligence.
+        My current research interest is AI agents, especially systems that can
+        reason, plan, use tools, learn from feedback, and collaborate with humans.
+      </p>
+      <p>
+        My long-term goal is to develop reliable and safe AI agents for complex
+        real-world tasks.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <span class="tag">AI Agents</span>
+      <span class="tag">Large Language Models</span>
+      <span class="tag">Reinforcement Learning</span>
+      <span class="tag">Tool Use</span>
+      <span class="tag">Planning</span>
+      <span class="tag">Multi-Agent Systems</span>
+      <span class="tag">AI Safety</span>
+      <span class="tag">Agent Evaluation</span>
+
+      <p>
+        I am especially interested in the following questions:
+      </p>
+      <ul>
+        <li>How can AI agents plan over long horizons?</li>
+        <li>How can agents use external tools reliably?</li>
+        <li>How can agents remember useful information and learn from experience?</li>
+        <li>How should we evaluate agent performance and safety?</li>
+        <li>When do multi-agent systems help, and when do they fail?</li>
+      </ul>
+    </section>
+
+    <section id="papers">
+      <h2>Reading List</h2>
+
+      <div class="paper">
+        <strong>Attention Is All You Need</strong><br />
+        Vaswani et al., 2017
+      </div>
+
+      <div class="paper">
+        <strong>Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</strong><br />
+        Wei et al., 2022
+      </div>
+
+      <div class="paper">
+        <strong>ReAct: Synergizing Reasoning and Acting in Language Models</strong><br />
+        Yao et al., 2023
+      </div>
+
+      <div class="paper">
+        <strong>Toolformer: Language Models Can Teach Themselves to Use Tools</strong><br />
+        Schick et al., 2023
+      </div>
+
+      <div class="paper">
+        <strong>Reflexion: Language Agents with Verbal Reinforcement Learning</strong><br />
+        Shinn et al., 2023
+      </div>
+
+      <div class="paper">
+        <strong>Generative Agents: Interactive Simulacra of Human Behavior</strong><br />
+        Park et al., 2023
+      </div>
+
+      <div class="paper">
+        <strong>Voyager: An Open-Ended Embodied Agent with Large Language Models</strong><br />
+        Wang et al., 2023
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <h3>Personal AI Agent</h3>
+      <p>
+        Building a small LLM-based agent that can reason, use tools, and solve
+        multi-step tasks.
+      </p>
+
+      <h3>AI Agent Reading Notes</h3>
+      <p>
+        Maintaining reading notes for papers on AI agents, reinforcement learning,
+        planning, and large language models.
+      </p>
+
+      <h3>Agent Evaluation Experiments</h3>
+      <p>
+        Studying failure cases of AI agents in tool-use and planning tasks.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <strong>Email:</strong> your.email@example.com
+      </p>
+      <p>
+        <strong>GitHub:</strong> github.com/HeywoodKaiYiu
+      </p>
+      <p>
+        <strong>Google Scholar:</strong> Coming soon
+      </p>
+      <p>
+        <strong>LinkedIn:</strong> Coming soon
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Heywood Kai Yiu. Personal homepage under construction.
+  </footer>
+
+</body>
+</html>
